@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="basedatos" href="index.php">
+</head>
+<body>
+
+<header>
+    <div class="logo-container">
+        <span class="logo-text">UNICAH</span>
+    </div>
+    <nav>
+        <img src="images/Logo ICC-Blanco.png" alt="Logo carrera" class="logo">
+    </nav>
+</header>
+
+<main>
+    <div class="login-container">     
+        <img src="images/NewLogo-VOkN2Yco.png" alt="Logo de Universidad Católica de Honduras" class="full-logo">        
+        <form action="index.php" method="POST">
+            
+            <input type="text" id="username" name="nom" placeholder="Ingrese su Nombre" required>
+
+            <input type="text" id="password" name="tel" placeholder="Ingrese su Telefono" required>
+
+            <select id="collegue" name="cole" required>
+                <option value="" selected disabled>Seleccione su Instituto</option>
+                <option value="Teodoro Rodas Valle">Teodoro Rodas Valle</option>
+                <option value="Pebbles and Stones">Pebbles and Stones</option>
+                <option value="Instituto Departamental de Oriente">Instituto Departamental de Oriente</option>
+                <option value="Instituto Mixto Santa Teresita">Instituto Mixto Santa Teresita</option>
+                <option value="Felipe Elvir Rojas">Felipe Elvir Rojas</option>
+                <option value="Adventista Maranatha">Adventista Maranatha</option>
+                <option value="Instituto Católico Bilingüe">Instituto Católico Bilingüe</option>
+                <option value="Instituto Ignacio Alberto Rodriguez Espinoza">Instituto Ignacio Alberto Rodriguez Espinoza</option>
+                <option value="Monte Sión">Monte Sión</option>
+                <option value="Instituto Santa María">Instituto Santa María</option>
+                <option value="Instituto Frank Ramírez Matheu">Instituto Frank Ramírez Matheu</option>
+                <option value="Sagrado Corazón">Sagrado Corazón</option>
+                <option value="Centro Técnico Vocacional Pedro Nufio">Centro Técnico Vocacional Pedro Nufio</option>
+                <option value="Instituto Tecnico Danli">Instituto Tecnico Danli</option> 
+                <option value="The Children's World School">The Children's World School</option> 
+                <option value="Instituto Católico Cardenal Óscar Andrés Rodríguez">Instituto Católico Cardenal Óscar Andrés Rodríguez</option>
+                <option value="English Castle Bilingual School">English Castle Bilingual School</option>
+                <option value="Instituto Armando Martinez">Instituto Armando Martinez</option>
+                <option value="Instituto Tecnico Alejandro FLores">Instituto Tecnico Alejandro FLoresz</option>
+                <option value="Instituto Cosme García">Instituto Cosme García</option>
+            </select> 
+
+            <select id="course" name="carr" required>
+                <option value="" selected disabled>Seleccione su Carrera</option>
+                <option value="Humanidades">Humanidades</option>
+                <option value="Técnico en Computación">Técnico en Computación</option>
+                <option value="Robótica">Robótica</option>  
+                <option value="Finanzas">Finanzas</option> 
+                <option value="Madera">Madera</option> 
+                <option value="Agropecuaria">Agropecuaria</option>  
+                <option value="Hogar">Hogar</option> 
+                <option value="Estructuras Metálicas">Estructuras Metálicas</option>   
+                <option value="Administracion de Empresas">Administracion de Empresas</option>                   
+            </select>
+
+            <button type="submit" class="submit-btn">REGISTRAR</button>
+        </form>            
+    </div>
+</main>
+
+<footer>
+    <p>Universidad Católica de Honduras © 2025</p>
+</footer>
+
+</body>
+</html>
